@@ -1,0 +1,13 @@
+Task 1: Forked GitHub Repository Verification
+
+cURL Command:
+curl https://api.github.com/repos/sahilmomo/expressBookReviews
+
+Output:
+{
+  "name": "expressBookReviews",
+  "fork": true,
+  "parent": {
+    "full_name": "ibm-developer-skills-network/expressBookReviews"
+  }
+}
