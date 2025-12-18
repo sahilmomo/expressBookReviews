@@ -1,0 +1,10 @@
+Task 10: Delete Book Review
+
+cURL Command:
+curl -X DELETE http://localhost:5000/review/1 \
+-H "Authorization: Bearer <JWT_TOKEN>"
+
+Output:
+{
+  "message": "Review deleted successfully"
+}
