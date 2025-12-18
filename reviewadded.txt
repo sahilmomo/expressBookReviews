@@ -1,0 +1,15 @@
+Task 9: Add / Modify Book Review
+
+cURL Command:
+curl -X PUT http://localhost:5000/review/1 \
+-H "Content-Type: application/json" \
+-H "Authorization: Bearer <JWT_TOKEN>" \
+-d '{"review":"Excellent book"}'
+
+Output:
+{
+  "message": "Review added successfully",
+  "reviews": {
+    "sahil": "Excellent book"
+  }
+}
