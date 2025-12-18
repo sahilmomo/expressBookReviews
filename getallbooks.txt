@@ -1,0 +1,12 @@
+Task 2: Get All Books
+
+cURL Command:
+curl http://localhost:5000/
+
+Output:
+{
+  "books": {
+    "1": { "author": "Chinua Achebe", "title": "Things Fall Apart", "reviews": {} },
+    "2": { "author": "Hans Christian Andersen", "title": "Fairy Tales", "reviews": {} }
+  }
+}
