@@ -53,7 +53,7 @@ async function getBooksByTitle(title) {
   }
 }
 
-/* Example function calls (can be commented out if not needed) */
+/* Example function calls */
 getAllBooks();
 getBookByISBN('1');
 getBooksByAuthor('Chinua Achebe');
