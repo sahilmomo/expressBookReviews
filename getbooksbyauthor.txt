@@ -1,0 +1,12 @@
+Task 4: Get Books by Author
+
+cURL Command:
+curl http://localhost:5000/author/Chinua%20Achebe
+
+Output:
+[
+  {
+    "isbn": "1",
+    "title": "Things Fall Apart"
+  }
+]
